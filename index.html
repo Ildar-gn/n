@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+
+  <body>
+
+    <!-- header -->
+    <header class="header section">
+      <div class="header__container container">
+        <span class="logo" role="img" aria-label="Logotype"></span>
+        <form autocomplete="on">
+          <div class="mode">
+            <label class="theme-toggle">
+              <input type="radio" name="theme" value="light">
+              <span class="theme-icon theme-icon--light"></span>
+              <span class="visually-hidden">Светлая тема</span>
+            </label>
+            <label class="theme-toggle">
+              <input type="radio" name="theme" value="dark">
+              <span class="theme-icon theme-icon--dark"></span>
+              <span class="visually-hidden">Тёмная тема</span>
+            </label>
+            <label hidden>
+              <input type="radio" name="theme" value="system" tabindex="-1" checked>Тема системы
+            </label>
+          </div>
+        </form>
+        <a class="github" target="_blank" href="https://github.com/htmlacademy/nebo.css">
+          <span class="hide-on-mobile">GitHub</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main class="main">
+
+      <!-- cards -->
+      <section class="section">
+        <div class="cards container">
+          <div class="card">
+            <div class="card__header nebo card__header--img-house-1"></div>
+            <a class="card__link" href="#">
+              <span class="visually-hidden">Узнать подробнее</span>
+            </a>
+          </div>
+          <div class="card">
+            <div class="card__header nebo card__header--img-house-3"></div>
+            <a class="card__link" href="#">
+              <span class="visually-hidden">Узнать подробнее</span>
+            </a>
+          </div>
+          <div class="card">
+            <div class="card__header nebo card__header--img-house-2"></div>
+            <a class="card__link" href="#">
+              <span class="visually-hidden">Узнать подробнее</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- cta -->
+      <section class="centered section">
+        <div class="container">
+          <a class="cta" target="_blank" href="https://github.com/htmlacademy/nebo.css">Negative border radius made easy</a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container container centered">
+        <a class="github" target="_blank" href="https://github.com/htmlacademy/nebo.css">GitHub</a>
+      </div>
+    </footer>
+  </body>
+
+</html>
