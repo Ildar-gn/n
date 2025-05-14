@@ -131,7 +131,7 @@ body {
 .logo::before {
   width: 32px;
   aspect-ratio: 1;
-  background-image: url("https://9d44b097-c83a-4cf6-b975-608300ce8365.selstorage.ru/img%2Flogo-n.svg");
+  background-image: url("../img/logo.svg");
   background-size: contain;
   background-repeat: no-repeat;
   content: "";
@@ -140,7 +140,7 @@ body {
 .logo::after {
   width: 110px;
   height: 24px;
-  mask-image: url("https://9d44b097-c83a-4cf6-b975-608300ce8365.selstorage.ru/img%2Flogo-nebo.svg");
+  mask-image: url("../img/logo-nebo.svg");
   mask-size: contain;
   mask-repeat: no-repeat;
   background-color: var(--color-base-23);
@@ -162,7 +162,7 @@ body {
 .github::before {
   width: 24px;
   aspect-ratio: 1;
-  mask-image: url("https://9d44b097-c83a-4cf6-b975-608300ce8365.selstorage.ru/img%2Flogo-github.svg");
+  mask-image: url("../img/logo-github.svg");
   mask-size: contain;
   mask-repeat: no-repeat;
   background-color: var(--color-base-23);
@@ -209,15 +209,15 @@ body {
 }
 
 .card__header--img-house-1 {
-  --img-house: url("https://ildar-gn.github.io/combolab/img/house-1.webp");
+  --img-house: url("../img/house-1.webp");
 }
 
 .card__header--img-house-2 {
-  --img-house: url("https://ildar-gn.github.io/combolab/img/house-2.webp");
+  --img-house: url("../img/house-2.webp");
 }
 
 .card__header--img-house-3 {
-  --img-house: url("https://ildar-gn.github.io/combolab/img/house-3.webp");
+  --img-house: url("../img/house-3.webp");
 }
 
 .card__link {
@@ -237,7 +237,7 @@ body {
 .card__link::before {
   width: clamp(1.375rem, 1.2875rem + 0.7vw, 1.8125rem);
   aspect-ratio: 1;
-  mask-image: url("https://ildar-gn.github.io/combolab/img/arrow.svg");
+  mask-image: url("../img/arrow.svg");
   mask-size: contain;
   mask-position: center;
   mask-repeat: no-repeat;
@@ -330,12 +330,12 @@ body {
 
 /* Иконка солнца для светлой темы */
 .theme-icon--light {
-  --theme-icon: url("https://9d44b097-c83a-4cf6-b975-608300ce8365.selstorage.ru/img%2Ficon-light.svg");
+  --theme-icon: url("../img/icon-theme-light.svg");
 }
 
 /* Иконка луны для тёмной темы */
 .theme-icon--dark {
-  --theme-icon: url("https://9d44b097-c83a-4cf6-b975-608300ce8365.selstorage.ru/img%2Ficon-theme-dark.svg");
+  --theme-icon: url("../img/icon-theme-dark.svg");
 }
 
 :root:has(.mode [value="light"]:checked) .theme-toggle:has(input[value="dark"]) .theme-icon--dark {
